@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+h2 {
+    text-align: center;
+}
+
+form {
+    width: 350px;
+    margin: 30px auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+/* Input container */
+.form-group {
+    margin-bottom: 15px;
+}
+
+/* Input fields */
+input {
+    width: 100%;
+    padding: 8px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Error state */
+.form-group.error input {
+    border-color: red;
+}
+
+/* Success state */
+.form-group.success input {
+    border-color: green;
+}
+
+/* Error message text */
+.error {
+    color: red;
+    font-size: 12px;
+}
+
+/* Button */
+button {
+    width: 100%;
+    padding: 10px;
+    background: #007BFF;
+    border: none;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #0056b3;
+}
